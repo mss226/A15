@@ -1,0 +1,168 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	border-color: #931420;
+	background-color: #fffded;
+}
+
+nav{
+	width: 100%;
+}
+
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#nav_menu ul li{
+	float: left;
+	width: 20%;
+}
+
+#nav_menu ul li a {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+
+#nav_menu a.current {
+	color: yellow;
+}
+
+#nav_menu ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+}
+
+#nav_menu ul ul li{
+	float: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu > ul::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+section{
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	h3{font-size: 105%;}
+	h3{padding-bottom: 0.25em;}
+	img{padding-bottom: 1em;}
+	
+}
+
+article {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-color: #800000;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	img{
+		float: right;
+		margin: 500px;
+		}
+	h2{padding-top: 0;}
+	h3{font-size: 105%;}
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+
+header {
+	border-bottom: solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(to right,
+     #f6bb73 0%,#f6bb73 30%,white 50%,#f6bb73 80%,#f6bb73 100%);
+}
+/* the styles for the section */
+main {
+	clear: left;
+	/*padding-left: 30px;
+	padding-right: 30px;*/
+	h1 {padding-top: 0.3em;}
+	h1 {padding-bottom: 0.3em;}
+	h2{ padding-top: 0.5em;}
+	h2{padding-bottom: 0.25em;}
+	h3{padding-bottom: 0.25em;}
+	img{padding-bottom: 1em;}
+	p{padding-bottom: 0.5em;}
+	blockquote{padding-left: 2em;}
+	blockquote{padding-right: 2em;}
+	ul{padding-bottom: 0.25em;}
+	ul{padding-left: 1.25em;}
+	li{padding-bottom: 0.35em;}
+}
+
+/* the styles for the footer */
+footer {
+	text-align: center;
+	background-color: #931420;
+	clear: both;
+	
+}
+
+h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h3 {
+	font-size:130%;
+	font-style:italic;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h1 {
+	font-size:150%;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.shadow {
+	text-shadow: 2px 2px #800000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
